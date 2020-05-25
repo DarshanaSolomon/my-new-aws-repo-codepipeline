@@ -56,4 +56,16 @@
 		</plugins>
 	</build>
 
+<repositories>
+	<repository>
+		<id>my-new-aws-repo-codepipeline.read</id>
+		<url>https://https://github.com/DarshanaSolomon/my-new-aws-repo-codepipeline.git</url>
+	</repository>
+</repositories>
+<distributionManagement>
+	<repository>
+		<id>my-new-aws-repo-codepipeline.write</id>
+		<url>https://https://github.com/DarshanaSolomon/my-new-aws-repo-codepipeline.git</url>
+	</repository>
+</distributionManagement>
 </project>
